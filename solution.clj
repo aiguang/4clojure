@@ -8,3 +8,6 @@ true
 
 29
 (fn [val] (reduce str (re-seq #"[A-Z]" val)))
+
+32
+(fn [coll] (interleave coll coll)
